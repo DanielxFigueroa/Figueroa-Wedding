@@ -1,0 +1,186 @@
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+      <title> Figueroa Wedding </title>
+      <link rel = "stylesheet" href = "CSS/mstyles.css"/>
+      <link rel = "icon" href = "Images/icon.png">
+   </head>
+   <body>
+      <header>
+         <ul>
+            <li class = "title"> <a href = "index.html"> Daniel & Emily </a> </li>
+
+            <input type = "checkbox" id = "check">
+            <label for = "check" class = "bars"> <i class = "fas fa-bars"> </i> </label>
+
+            <div class = "nav">
+               <li> <a href = "wedding.html"> Wedding </a> </li>
+               <li> <a href = "location.html"> Location & Stay </a> </li>
+               <li> <a href = "registry.html"> Registry </a> </li>
+               <li> <button type = "button" id = "RSVP"> RSVP </button> </li>
+            </div>
+         </ul>
+      </header>
+
+      <div class = "ModelBox">
+         <div class = "model-content">
+            <div class = "close"> + </div>
+            <p> RSVP for Daniel & Emily's Wedding </p>
+            <form id = "form">
+               <div class = "wrap" id = "FN">
+                  <input type = "text" class = "wrap-content" name = "FirstName" required autocomplete = "off">
+                  <label for = "FN"> First Name* </label>
+               </div>
+
+               <div class = "wrap" id = "LN">
+                  <input type = "text" class = "wrap-content" name = "LastName" required autocomplete = "off">
+                  <label for = "LN"> Last Name* </label>
+               </div>
+
+               <div class = "wrap" id = "E">
+                  <input type = "text" class = "wrap-content" name = "Email" required autocomplete = "off">
+                  <label for = "E"> Email* </label>
+               </div>
+
+               <label for = "A" id = "A"> Will You Be Attending?* </label>
+
+               <label for = "G" id = "G"> Will You Be Bringing A Guest?* </label>
+
+               <div class = bigwrap id = "Choice1">
+                  <input type = "radio" id = "Y" name = "Attending" value = "Yes" required>
+                  <label for = "Y"> Yes </label>
+                  <input type = "radio" id = "N" name = "Attending" value = "No" required>
+                  <label for = "N"> No </label>
+               </div>
+
+               <div class = bigwrap id = "Choice2">
+                  <input type = "radio" id = "Y" name = "GuestResponse" value = "Yes" required>
+                  <label for = "Y"> Yes </label>
+                  <input type = "radio" id = "N" name = "GuestResponse" value = "No" required>
+                  <label for = "N"> No </label>
+               </div>
+
+               <label for = "E" id = "NOG"> Name of Guest: </label>
+
+               <div class = "wrap" id = "FN">
+                  <input type = "text" class = "wrap-content" name = "GuestFirstName" autocomplete = "off">
+                  <label for = "FN"> First Name </label>
+               </div>
+
+               <div class = "wrap" id = "LN">
+                  <input type = "text" class = "wrap-content" name = "GuestLastName" autocomplete = "off">
+                  <label for = "LN"> Last Name </label>
+               </div>
+
+               <div class = "wrap" id = "QOC">
+                  <textarea class = "wrap-content" name = "Comment" rows="8" cols="80" > &#13; *Please list the names of any children you'll be bringing! </textarea>
+                  <label for = "QOC"> Questions or Comments? </label>
+               </div>
+
+               <button type="submit" id = "Submit"> Submit </button>
+            </form>
+         </div>
+
+         <div class = "Success">
+            <div class = "sclose"> + </div>
+            <div class = "checkmarkcircle"> <div class = "checkmark"> </div> </div>
+            <p> Thank you for confirming! </p>
+         </div>
+      </div>
+
+      <div class = "Description">
+         <h1> Daniel Figueroa & Emily Snider </h1>
+         <h2> We're Getting Married! </h2>
+         <h3> Saturday, September 5, 2020 • Bryan, TX </h3>
+         <div id = "Countdown">
+             <div class = "cdcontainer">
+                 <span class = "days"> </span>
+                 <div> Days </div>
+             </div>
+             <div class = "cdcontainer">
+                 <span class = "hours"> </span>
+                 <div> Hours </div>
+             </div>
+             <div class = "cdcontainer">
+                 <span class = "minutes"> </span>
+                 <div> Minutes </div>
+             </div>
+             <div class = "cdcontainer">
+                 <span class = "seconds"> </span>
+                 <div> Seconds </div>
+             </div>
+         </div>
+      </div>
+
+      <div class = "Info">
+          <div class = "Daniel">
+            <img src = "Images/Downtown-144.jpg" alt = "Downtown-144"/>
+            <h2> Daniel's Story </h2>
+            <p> Emily and I ended up playing a game of ultimate frisbee one night with a group of mutual friends.
+               The night ended with that friend group getting Whataburger for dinner outside an Academy parking lot.
+               It was that night where I heard Emily's story of how she came to Sam Houston State University, but also her journey with Jesus Christ and all the major events that led up to her salvation.
+               I didn't know her, but for some reason I felt compassion for her and the struggles she went through. I wanted to give this stranger a hug, and I did not know why.
+               Two months later, we shared enough of our lives with one another that I knew my strong emotions for her were not a coincidence; I fell in love.
+               Emily teaches me the beauty of how Christ pursues the church and longs to be with us everyday.
+               It's a great mystery to immitate how Christ pursues us, but I find joy being able to pursue Emily for the rest of my life;
+               I found the one I have been longing to be with.
+            </p>
+         </div>
+
+         <div class = "Emily">
+            <img src = "Images/OnCampus-6.jpg" alt = "OnCampus-6"/>
+            <h2> Emily's Story </h2>
+            <p> Although Danny and I met before, the first time I remember meeting Danny was at a birthday party at my house.
+               I was so intrigued by the man that was okay with not being the center of attention.
+               By the man that was okay being alone in the kitchen playing with my cat and doing the dishes.
+               As soon as I noticed his peaceful and helpful demeanor, I walked over to a couple of friends and claimed that I would make that boy my boyfriend.
+               Within two months, Danny and I had hung out in groups with friends, hung out by ourselves, and began sharing every aspect of our lives with one another from how we fell in love with Jesus to our favorite songs.
+               My favorite part about meeting Danny is that two days before the birthday party, I told a friend that I was hurt because everyone eventually leaves you.
+               She prayed that I would find a friend the way that Elijah found Elisha in the Bible. How great is the Lord that He sends us the people we need the most when we least expect it?
+               Dating Danny has been a blast and I cannot wait to share an exciting part of our story with all of you on September 5th.
+            </p>
+         </div>
+
+         <div class = "Ours">
+            <img src = "Images/Downtown-85.jpg" alt = "Downtown-85"/>
+            <h2> Our Relationship </h2>
+            <p> We met through a campus minsitry at Sam Houston State Univeristy.
+               To those who have seen our relationship, you would know how completely contrasting we are.
+               However, we both know that there could be no one else who could replace each other in our lives.
+               We are excited to get married and spend the rest of our lives together on September 5th!
+            </p>
+         </div>
+      </div>
+
+      <p id = "Request"> Daniel & Emily joyfully request the pleasure of your company
+         as we speak our vows and join in marriage in the presence of friends
+         and family on September 5, 2020.
+      </p>
+
+      <div class = "CeremonyReception">
+         <h3> Ceremony & Reception </h3>
+         <p> Inn at Quarry Ridge </p>
+         <p> 9401 Rust Ln </p>
+         <p> Bryan, TX 77808 </p>
+         <p> Ceremony: 6:30 PM </p>
+         <p> Reception: 7:15 PM - 10:30 PM </p>
+      </div>
+
+      <script src = "https://kit.fontawesome.com/a076d05399.js"> </script>
+      <script src = "JS/rsvp.js"> </script>
+      <script src = "JS/jquery.min.js"> </script>
+      <script src = "JS/activelabel.js"> </script>
+      <script src = "https://wzrd.in/standalone/formdata-polyfill"> </script>
+      <script src = "https://wzrd.in/standalone/promise-polyfill@latest"> </script>
+      <script src = "https://wzrd.in/standalone/whatwg-fetch@latest"> </script>
+      <script src = "JS/rsvpform.js"> </script>
+      <script src = "JS/success.js"> </script>
+      <script src = "JS/countdown.js"> </script>
+
+      <footer>
+         <p> Contact: daniel.fig.figueroa@gmail.com </p>
+         <p> Created by Daniel Figueroa </p>
+      </footer>
+   </body>
+</html>

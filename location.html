@@ -1,0 +1,144 @@
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+      <title> Figueroa Wedding </title>
+      <link rel = "stylesheet" href = "CSS/lstyles.css"/>
+      <link rel = "icon" href = "Images/icon.png">
+   </head>
+   <body>
+      <header>
+         <ul>
+            <li class = "title"> <a href = "index.html"> Daniel & Emily </a> </li>
+
+            <input type = "checkbox" id = "check">
+            <label for = "check" class = "bars"> <i class = "fas fa-bars"> </i> </label>
+
+            <div class = "nav">
+               <li> <a href = "wedding.html"> Wedding </a> </li>
+               <li> <a href = "location.html"> Location & Stay </a> </li>
+               <li> <a href = "registry.html"> Registry </a> </li>
+               <li> <button type = "button" id = "RSVP"> RSVP </button> </li>
+            </div>
+         </ul>
+      </header>
+
+      <div class = "ModelBox">
+         <div class = "model-content">
+            <div class = "close"> + </div>
+            <p> RSVP for Daniel & Emily's Wedding </p>
+            <form id = "form">
+               <div class = "wrap" id = "FN">
+                  <input type = "text" class = "wrap-content" name = "FirstName" required autocomplete = "off">
+                  <label for = "FN"> First Name* </label>
+               </div>
+
+               <div class = "wrap" id = "LN">
+                  <input type = "text" class = "wrap-content" name = "LastName" required autocomplete = "off">
+                  <label for = "LN"> Last Name* </label>
+               </div>
+
+               <div class = "wrap" id = "E">
+                  <input type = "text" class = "wrap-content" name = "Email" required autocomplete = "off">
+                  <label for = "E"> Email* </label>
+               </div>
+
+               <label for = "A" id = "A"> Will You Be Attending?* </label>
+
+               <label for = "G" id = "G"> Will You Be Bringing A Guest?* </label>
+
+               <div class = bigwrap id = "Choice1">
+                  <input type = "radio" id = "Y" name = "Attending" value = "Yes" required>
+                  <label for = "Y"> Yes </label>
+                  <input type = "radio" id = "N" name = "Attending" value = "No" required>
+                  <label for = "N"> No </label>
+               </div>
+
+               <div class = bigwrap id = "Choice2">
+                  <input type = "radio" id = "Y" name = "GuestResponse" value = "Yes" required>
+                  <label for = "Y"> Yes </label>
+                  <input type = "radio" id = "N" name = "GuestResponse" value = "No" required>
+                  <label for = "N"> No </label>
+               </div>
+
+               <label for = "E" id = "NOG"> Name of Guest: </label>
+
+               <div class = "wrap" id = "FN">
+                  <input type = "text" class = "wrap-content" name = "GuestFirstName" autocomplete = "off">
+                  <label for = "FN"> First Name </label>
+               </div>
+
+               <div class = "wrap" id = "LN">
+                  <input type = "text" class = "wrap-content" name = "GuestLastName" autocomplete = "off">
+                  <label for = "LN"> Last Name </label>
+               </div>
+
+               <div class = "wrap" id = "QOC">
+                  <textarea class = "wrap-content" name = "Comment" rows="8" cols="80"> &#13; *Please list the names of any children you'll be bringing! </textarea>
+                  <label for = "QOC"> Questions or Comments? </label>
+               </div>
+
+               <button type="submit" id = "Submit"> Submit </button>
+            </form>
+         </div>
+
+         <div class = "Success">
+            <div class = "sclose"> + </div>
+            <div class = "checkmarkcircle"> <div class = "checkmark"> </div> </div>
+            <p> Thank you for confirming! </p>
+         </div>
+      </div>
+
+      <div class = "Description">
+         <h4> Travel </h4>
+         <p> Bryan, TX </p>
+      </div>
+
+      <div class = "Directions">
+         <h4> Directions </h4>
+         <p> Please refer to the map below for directions and carpool for convenience. </p>
+
+         <div id = "map"> </div>
+         <script src = "JS/map.js"> </script>
+         <script async defer src =
+         "https://maps.googleapis.com/maps/api/js?key=AIzaSyDuzhVPut7N_QkhtglwIUk1ax5i0oDbaZA&callback=initMap">
+         </script>
+      </div>
+
+      <div class = "RestAreas">
+         <h4> Where To Stay </h4>
+         <p> Hampton Inn and Suites Hotel </p>
+      </div>
+
+      <div class = "StayingGuide">
+         <p>
+            We have rooms blocked off for family and friends of the bride and groom
+            at a hotel. Please comment on the RSVP form or email us at "daniel.fig.figueroa@gmail.com" if you need a room the night of the wedding.
+         </p>
+         <p> 
+            Mention "Figueroa Wedding" when you arrive to acquire your room. 
+         </p>
+      </div>
+
+      <div class = "HotelInfo">
+         <h4> Hampton Inn and Suites </h4>
+         <p> 925 N Earl Rudder Fwy </p>
+         <p> College Station, TX, 77845 </p>
+      </div>
+
+      <script src = "https://kit.fontawesome.com/a076d05399.js"> </script>
+      <script src = "JS/rsvp.js"> </script>
+      <script src = "JS/jquery.min.js"> </script>
+      <script src = "JS/activelabel.js"> </script>
+      <script src = "https://wzrd.in/standalone/formdata-polyfill"> </script>
+      <script src = "https://wzrd.in/standalone/promise-polyfill@latest"> </script>
+      <script src = "https://wzrd.in/standalone/whatwg-fetch@latest"> </script>
+      <script src = "JS/rsvpform.js"> </script>
+      <script src = "JS/success.js"> </script>
+
+      <footer>
+         <p> Contact: daniel.fig.figueroa@gmail.com </p>
+         <p> Created by Daniel Figueroa </p>
+      </footer>
+   </body>
+</html>
