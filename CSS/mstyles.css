@@ -303,6 +303,22 @@ label.active {
    #Choice1, #Choice2 { margin-top: 15px; }
 }
 
+/* COVID-19 Banner */
+
+.covid19 {
+   background: red;
+   color: white;
+   text-align: center;
+   font-size: 20px;
+   letter-spacing: -1px;
+}
+
+.covid19 p, .covid19 h4 { display: inline-block; }
+
+.covid19 h4 { padding: 15px; border: 1.5px dotted white; }
+
+.covid19 p {margin: 0px 150px 30px; }
+
 /* Stories Styling */
 
 .Info {
@@ -398,7 +414,7 @@ img {
       padding-bottom: 165px;
    }
 
-   .CeremonyReception h3 { font-size: 2rem; padding-bottom: 0px; } 
+   .CeremonyReception h3 { font-size: 2rem; padding-bottom: 0px; }
 
    .CeremonyReception p { font-size: 1.5rem; }
 }
@@ -470,6 +486,8 @@ img {
 
    #Choice1, #Choice2 { margin-top: 15px; }
 
+   .covid19 p { margin-left: 25px; margin-right: 25px; }
+
    .Info {
       width: 100%;
       margin: 0px;
@@ -478,7 +496,7 @@ img {
    .Daniel, .Emily, .Ours {
       width: 85%;
       margin-left: 30px;
-      padding-bottom: 0px; 
+      padding-bottom: 0px;
       clear: both;
    }
 
